@@ -9,8 +9,8 @@ Un entorno virtual de Python para gestionar las dependencias.
 # Instalación
 Clonar el repositorio:
 bash
-git clone <URL-del-repositorio>
-cd <nombre-del-repositorio>
+* git clone <URL-del-repositorio>
+* cd <nombre-del-repositorio>
 
 
 # Crear un entorno virtual:
@@ -21,18 +21,18 @@ venv\Scripts\activate      # En Windows
 
 #Instalar las dependencias:
 bash
-pip install --upgrade pip
-pip install geopandas matplotlib shapely networkx
+* pip install --upgrade pip
+* pip install geopandas matplotlib shapely networkx
 
 #Ejecución del proyecto
 Ejecutar el programa: Navega al directorio del proyecto y ejecuta el script principal:
 bash
-python main.py
+* python main.py
 Ejemplo de uso: El programa calculará la mejor ruta entre estaciones y mostrará las visualizaciones de las rutas en un mapa interactivo.
 
 # Notas adicionales:
 Si tienes problemas instalando geopandas debido a dependencias del sistema, te recomendamos usar el instalador de conda:
 bash
-conda install geopandas matplotlib shapely networkx
+* conda install geopandas matplotlib shapely networkx
 
 Puedes modificar el código para agregar estaciones o rutas nuevas y ajustar criterios para encontrar la mejor ruta.
