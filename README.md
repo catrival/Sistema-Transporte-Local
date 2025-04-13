@@ -39,7 +39,13 @@ Matplotlib: Para visualizaciones básicas.
 * pip install matplotlib
 
 Seaborn: Para visualizaciones avanzadas.
-*pip install seaborn
+* pip install seaborn
+
+Shapely: Para manipular geometrías geoespaciales.
+* pip install shapely
+
+Scikit-learn: Para realizar clustering con KMeans.
+* pip install scikit-learn
 
 # Ejecución del proyecto
 Ejecutar el programa: Navega al directorio del proyecto y ejecuta el script principal:
