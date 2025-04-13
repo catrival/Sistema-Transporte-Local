@@ -24,7 +24,24 @@ bash
 * pip install --upgrade pip
 * pip install geopandas matplotlib shapely networkx
 
-#Ejecución del proyecto
+# Comandos para instalar las bibliotecas una a una. 
+
+Pandas: Para manipulación y análisis de datos.
+* pip install pandas
+
+NumPy: Para cálculos numéricos.
+* pip install numpy
+
+Scikit-learn: Para el modelado predictivo.
+* pip install scikit-learn
+
+Matplotlib: Para visualizaciones básicas.
+* pip install matplotlib
+
+Seaborn: Para visualizaciones avanzadas.
+*pip install seaborn
+
+# Ejecución del proyecto
 Ejecutar el programa: Navega al directorio del proyecto y ejecuta el script principal:
 bash
 * python main.py
