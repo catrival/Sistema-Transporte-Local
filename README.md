@@ -29,6 +29,9 @@ bash
 Pandas: Para manipulación y análisis de datos.
 * pip install pandas
 
+GeoPandas: Para trabajar con datos geoespaciales.
+* pip install geopandas
+
 NumPy: Para cálculos numéricos.
 * pip install numpy
 
